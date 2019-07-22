@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-client-dev
+    name: microservicecloud-config-client
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url: 
@@ -20,7 +20,7 @@ server:
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-client-test
+    name: microservicecloud-config-client
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url: 
